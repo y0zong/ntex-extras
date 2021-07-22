@@ -22,7 +22,7 @@ ntex = "0.3.5"
 bitflags = "1.2"
 futures = "0.3"
 derive_more = "0.99.11"
-hyperx = "1.0.0"
+hyperx = { git = "https://github.com/y0zong/hyperx.git" }
 log = "0.4"
 mime = "0.3"
 mime_guess = "2.0.1"
@@ -30,4 +30,4 @@ percent-encoding = "2.1"
 v_htmlescape = "0.13"
 
 [dev-dependencies]
-ntex = { version = "0.3.5", features=["openssl", "compress"] }
+ntex = { version = "0.3.5", features = ["openssl", "compress"] }
