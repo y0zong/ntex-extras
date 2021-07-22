@@ -22,7 +22,7 @@ ntex = "0.3.5"
 bitflags = "1.2"
 futures = "0.3"
 derive_more = "0.99.11"
-hyperx = { git = "https://github.com/y0zong/hyperx.git" }
+hyperx = { git = "https://github.com/y0zong/hyperx.git", branch = "main" }
 log = "0.4"
 mime = "0.3"
 mime_guess = "2.0.1"
